@@ -1,0 +1,131 @@
+/* line 1, ../sass/scss/style.scss */
+body {
+  background: #fff;
+  color: #3a3a3a;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 8, ../sass/scss/style.scss */
+.container {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  height: 100%;
+  margin: 0 auto;
+  max-width: 1280px;
+  width: 80%;
+}
+
+/* line 17, ../sass/scss/style.scss */
+section, footer {
+  display: inline-block;
+  width: 100%;
+}
+
+/* line 22, ../sass/scss/style.scss */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+/* line 28, ../sass/scss/style.scss */
+li {
+  font-size: 16px;
+  padding-bottom: 16px;
+}
+
+/* line 33, ../sass/scss/style.scss */
+h1 {
+  color: red;
+  font-family: 'Raleway', sans-serif;
+  font-size: 100px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+  margin: 0;
+  line-height: 80px;
+}
+
+/* line 44, ../sass/scss/style.scss */
+h2 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+
+/* line 54, ../sass/scss/style.scss */
+a {
+  color: #3a3a3a;
+  text-decoration: none;
+}
+
+/* line 59, ../sass/scss/style.scss */
+a:hover {
+  color: #34A9FF;
+}
+
+/* line 63, ../sass/scss/style.scss */
+.information {
+  padding-top: 150px;
+  margin: 0px 0px 75px 0px;
+}
+
+/* line 68, ../sass/scss/style.scss */
+.links {
+  display: block;
+  margin: 10px 0px 0px 5px;
+}
+
+/* line 73, ../sass/scss/style.scss */
+.links li {
+  display: inline;
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+
+/* line 79, ../sass/scss/style.scss */
+.links span {
+  padding: 0 20px;
+}
+
+/* line 83, ../sass/scss/style.scss */
+.about {
+  margin-bottom: 30px;
+}
+
+/* line 87, ../sass/scss/style.scss */
+.about p {
+  color: #3A3A3A;
+  font-size: 16px;
+  line-height: 22px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+}
+
+/* line 95, ../sass/scss/style.scss */
+.about p span {
+  font-weight: 600;
+}
+
+/* line 99, ../sass/scss/style.scss */
+.bio {
+  width: 80%;
+  text-align: justify;
+}
+
+/* line 104, ../sass/scss/style.scss */
+.projects span {
+  font-style: italic;
+  font-size: 12px;
+  padding-left: 15px;
+}
+
+/* line 110, ../sass/scss/style.scss */
+.projects p {
+  margin-top: 5px;
+}
