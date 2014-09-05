@@ -4,12 +4,11 @@
 
 <head>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width" />
 	<title>James Bonder - Front End Web Developer</title>
 	<link rel="stylesheet" href="css/style.css">
-	<link href='http://fonts.googleapis.com/css?family=Oswald:400,300' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Raleway:600,700,800' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Lato:700' rel='stylesheet' type='text/css'>
 
 	<!-- Favicons
 	================================================== -->
@@ -23,12 +22,18 @@
 		<header>
 		<header class="information">
 			<div class="logo"></div>
-		<h1>James<br>Bonder</h1>
+		<h1 id="b">James<br>Bonder</h1>
 		<nav class="links">
 			<ul>
-				<li><a href="#">Github</a></li><span>/</span>
-				<li><a href="#">Twitter</a></li>
+				<li id="a" onmouseover="chbg('#4ca454')" onmouseout="chbg('#3a3a3a')"><a href="https://github.com/jamesbonder">Github</a></li><span>/</span>
+				<li id="c" onmouseover="chbg('#4472b9')" onmouseout="chbg('#3a3a3a')"><a href="https://twitter.com/jambonder">Twitter</a></li><span>/</span>
+				<li id="d" onmouseover="chbg('#be4c39')" onmouseout="chbg('#3a3a3a')"><a href="#">Contact</a></li>
 			</ul>
+
+			<script>function chbg(color) {
+    document.getElementById('b').style.color = color;
+}  </script>
+
 		</header>
 
 	<section class="main">
@@ -47,13 +52,22 @@
 						<li class="project">
 							<a href="https://cciweb.southwales.ac.uk/flourish14/"> Flourish 2014 / Ffynnu 2014 Graduate Showcase <span>Website</span></a>
 								<p>A showcase of final year students' work from the University of South Wales' Faculty of Creative Industries.</p>
+
+						<li class="project">
+							<a href="http://anotherdayanotherdimension.co.uk/"> Another Day, Another Dimension - Short Film <span> Website/Blog</span></a>
+								<p>Short, live-action film created in 2014 by a passionate, collaborative team; Gloomy Sheep Productions & CPS Films.</p>
+
+						<li class="project">
+							<a href="http://jamesbonder.co.uk/swiftshare/"> SwiftShare - Cloud Sharing Service <span> Website/Web App</span></a>
+								<p>Ongoing side Project with friend/mentor.</p>		
 		</section>
 	</section>
 
 	<footer>
-		<div class="copyright">
-
+		<div class="footer">
+				<p>&copy; James Bonder 2014</p>
 		</div>
+	<script src='js/main.js'></script>
 
 </body>
 </html>
