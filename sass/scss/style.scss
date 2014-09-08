@@ -1,6 +1,6 @@
 html, body {
 	background: #fff;
-	color: #3a3a3a;
+	color: #3C393C;
 	margin: 0;
 	padding: 0;
 }
@@ -31,7 +31,7 @@ li {
 }
 
 h1{
-	color: #3A3A3A;
+	color: #3C393C;
 	font-family: 'Raleway', sans-serif;
 	font-size: 100px;
 	font-weight: 700;
@@ -74,7 +74,7 @@ a:hover{
 
 .information{
 	padding-top:150px;
-	margin:0px 0px 75px 0px;
+	margin:0px 0px 45px 0px;
 }
 
 .links{
@@ -93,11 +93,11 @@ a:hover{
 }
 
 .about{
-	margin-bottom:30px;
+	margin-bottom:20px;
 }
 
 .about p{
-	color:#3A3A3A;
+	color:#3C393C;
 	font-size:16px;
 	line-height:22px;
 	font-family: 'Raleway', sans-serif;
@@ -110,28 +110,29 @@ a:hover{
 
 .bio{
 	width:80%;
-	text-align:justify;
 }
 
 .projects{
 	width:90%;
+	margin-bottom:20px;
 }
 
 .projects span {
-	font-style: italic;
-	font-size: 12px;
-	padding-left: 15px;
+	font-weight:600;
 }
 
 .projects p{
 	margin-top:5px;
+	color:#3C393C;
+	font-size:16px;
+	line-height:22px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
 }
 
 .footer {
-	border-top: 1px solid #999;
-	font-size: 14px;
-	margin: 50px auto 20px auto;
-	padding-top: 20px;
+	font-size: 12px;
+	margin: 50px auto 0px auto;
 }
 
 /* Media Queries
