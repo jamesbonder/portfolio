@@ -1,13 +1,15 @@
+$text-colour:#3C393C;
+$font-style:'Raleway', sans-serif;
+
 html, body {
 	background: #fff;
-	color: #3C393C;
+	color:$text-colour;
 	margin: 0;
 	padding: 0;
 }
 
-
 .container{
-	font-family: 'Raleway', sans-serif;
+	font-family:$font-style;
 	font-weight: 400;
 	height:100%;
 	margin:0 auto;
@@ -20,6 +22,8 @@ section, footer{
 	width:100%;
 }
 
+/* Font Styles */
+
 ul {
 	list-style-type: none;
 	margin: 0;
@@ -31,8 +35,8 @@ li {
 }
 
 h1{
-	color: #3C393C;
-	font-family: 'Raleway', sans-serif;
+	color: $text-colour;
+	font-family: $font-style;
 	font-size: 100px;
 	font-weight: 700;
 	letter-spacing: 2px;
@@ -42,7 +46,7 @@ h1{
 }
 
 h2{
-	font-family: 'Raleway', sans-serif;
+	font-family: $font-style;
 	font-weight: 400;
 	font-size:22px;
 	font-weight:600;
@@ -52,30 +56,36 @@ h2{
 }
 
 a{
-	color:#3a3a3a;
+	color:$text-colour;
 	text-decoration:none;
 }
+
+/* Text Hover States */
 
 a:hover{
 	color:#34A9FF;
 }
 
-#a a:hover{
+#github a:hover{
 	color:#4ca454;
 }
 
-#c a:hover{
+#twitter a:hover{
 	color:#34A9FF;
 }
 
-#d a:hover{
+#contact a:hover{
 	color:#be4c39;
 }
+
+/* Header Styles */
 
 .information{
 	padding-top:150px;
 	margin:0px 0px 45px 0px;
 }
+
+/* Nav Styles */
 
 .links{
 	display:block;
@@ -92,15 +102,17 @@ a:hover{
 	padding: 0px 20px 0px 20px;
 }
 
+/* About Styles */
+
 .about{
 	margin-bottom:20px;
 }
 
 .about p{
-	color:#3C393C;
+	color:$text-colour;
 	font-size:16px;
 	line-height:22px;
-	font-family: 'Raleway', sans-serif;
+	font-family: $font-style;
 	font-weight: 400;
 }
 
@@ -111,6 +123,8 @@ a:hover{
 .bio{
 	width:80%;
 }
+
+/* Projects Styles */
 
 .projects{
 	width:90%;
@@ -123,12 +137,14 @@ a:hover{
 
 .projects p{
 	margin-top:5px;
-	color:#3C393C;
+	color:$text-colour;
 	font-size:16px;
 	line-height:22px;
-	font-family: 'Raleway', sans-serif;
+	font-family: $font-style;
 	font-weight: 400;
 }
+
+/* Footer Styles */
 
 .footer {
 	font-size: 12px;
