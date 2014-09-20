@@ -9,5 +9,83 @@ $font-style:'Raleway', sans-serif;
 	font-weight: 400;
 	margin-top:5px;
 	margin-bottom:5px;
-	
+}
+
+p{
+	font-size:18px;
+}
+
+h1{
+	color:#4472b9;
+}
+
+h2{
+	font-size:34px;
+	color:#4472b9;
+}
+
+.information{
+	margin-bottom:30px;
+}
+
+#a a:hover{
+	color:#be4c39;
+}
+
+#c a:hover{
+	color:#4ca454;
+}
+
+#d a:hover{
+	color:#4472b9;
+}
+
+.bio{
+	float:left;
+	width:55%;
+	margin-bottom:20px;
+}
+
+.contact{
+	float:right;
+	width:28%;
+	margin-right:10px;
+}
+
+.contact h2{
+	text-align:right;
+	color:#4472b9;
+	font-size:22px;
+	font-weight:600;
+	padding:5px;
+	line-height:30px;
+}
+
+ul.one{
+	list-style-type:disc;
+	float:left;
+	text-align:left;
+	width:46%;
+	line-height:30px;
+	margin-left:30px;
+}
+
+ul.one p{
+	font-weight:600;
+}
+
+ul.two p{
+	font-weight:600;
+}
+
+ul.two{
+	list-style-type:disc;
+	float:right;
+	text-align:left;
+	width:48%;
+	line-height:30px;
+}
+
+.skills{
+	margin-bottom:20px;
 }

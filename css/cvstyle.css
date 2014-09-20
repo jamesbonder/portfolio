@@ -8,3 +8,97 @@
   margin-top: 5px;
   margin-bottom: 5px;
 }
+
+/* line 14, ../sass/scss/cvstyle.scss */
+p {
+  font-size: 18px;
+}
+
+/* line 18, ../sass/scss/cvstyle.scss */
+h1 {
+  color: #4472b9;
+}
+
+/* line 22, ../sass/scss/cvstyle.scss */
+h2 {
+  font-size: 34px;
+  color: #4472b9;
+}
+
+/* line 27, ../sass/scss/cvstyle.scss */
+.information {
+  margin-bottom: 30px;
+}
+
+/* line 31, ../sass/scss/cvstyle.scss */
+#a a:hover {
+  color: #be4c39;
+}
+
+/* line 35, ../sass/scss/cvstyle.scss */
+#c a:hover {
+  color: #4ca454;
+}
+
+/* line 39, ../sass/scss/cvstyle.scss */
+#d a:hover {
+  color: #4472b9;
+}
+
+/* line 43, ../sass/scss/cvstyle.scss */
+.bio {
+  float: left;
+  width: 55%;
+  margin-bottom: 20px;
+}
+
+/* line 49, ../sass/scss/cvstyle.scss */
+.contact {
+  float: right;
+  width: 28%;
+  margin-right: 10px;
+}
+
+/* line 55, ../sass/scss/cvstyle.scss */
+.contact h2 {
+  text-align: right;
+  color: #4472b9;
+  font-size: 22px;
+  font-weight: 600;
+  padding: 5px;
+  line-height: 30px;
+}
+
+/* line 64, ../sass/scss/cvstyle.scss */
+ul.one {
+  list-style-type: disc;
+  float: left;
+  text-align: left;
+  width: 46%;
+  line-height: 30px;
+  margin-left: 30px;
+}
+
+/* line 73, ../sass/scss/cvstyle.scss */
+ul.one p {
+  font-weight: 600;
+}
+
+/* line 77, ../sass/scss/cvstyle.scss */
+ul.two p {
+  font-weight: 600;
+}
+
+/* line 81, ../sass/scss/cvstyle.scss */
+ul.two {
+  list-style-type: disc;
+  float: right;
+  text-align: left;
+  width: 48%;
+  line-height: 30px;
+}
+
+/* line 89, ../sass/scss/cvstyle.scss */
+.skills {
+  margin-bottom: 20px;
+}
