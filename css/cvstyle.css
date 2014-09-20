@@ -163,11 +163,11 @@ ul.two {
   /* line 144, ../sass/scss/cvstyle.scss */
   .contact {
     top: 0px;
-    left: 9%;
+    right: 9%;
   }
 
   /* line 149, ../sass/scss/cvstyle.scss */
   .contact h2 {
-    text-align: left;
+    text-align: right;
   }
 }
