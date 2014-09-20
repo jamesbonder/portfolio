@@ -1,0 +1,10 @@
+/* line 4, ../sass/scss/cvstyle.scss */
+.skills p {
+  color: #3c393c;
+  font-size: 16px;
+  line-height: 22px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
