@@ -89,3 +89,64 @@ ul.two{
 .skills{
 	margin-bottom:20px;
 }
+
+@media (max-width:1200px){
+	.contact{
+		width:40%;
+	}
+}
+
+@media (max-width:800px){
+	.contact{
+		position:absolute;
+		top:40px;
+		right:9%;
+		width:100%;
+	}
+
+	.bio{
+		width:100%;
+	}
+}
+
+@media (max-width:1150px){
+ul.one{
+	width:45%;
+}
+ul.two{
+	width:45%;
+}
+}
+
+@media (max-width:800px){
+ul.one{
+	width:100%;
+	margin-left:20px;
+}
+ul.two{
+	width:100%;
+	float:left;
+	margin-left:20px;
+}
+}
+
+@media (max-width:640px){
+	.contact{
+		top:30px;
+	}
+
+	.information{
+		padding-top:0px;
+	}
+}
+
+@media (max-width:545px){
+	.contact{
+		top:0px;
+		left:9%;
+	}
+
+	.contact h2{
+		text-align:left;
+	}
+}

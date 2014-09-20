@@ -102,3 +102,72 @@ ul.two {
 .skills {
   margin-bottom: 20px;
 }
+
+@media (max-width: 1200px) {
+  /* line 94, ../sass/scss/cvstyle.scss */
+  .contact {
+    width: 40%;
+  }
+}
+@media (max-width: 800px) {
+  /* line 100, ../sass/scss/cvstyle.scss */
+  .contact {
+    position: absolute;
+    top: 40px;
+    right: 9%;
+    width: 100%;
+  }
+
+  /* line 107, ../sass/scss/cvstyle.scss */
+  .bio {
+    width: 100%;
+  }
+}
+@media (max-width: 1150px) {
+  /* line 113, ../sass/scss/cvstyle.scss */
+  ul.one {
+    width: 45%;
+  }
+
+  /* line 116, ../sass/scss/cvstyle.scss */
+  ul.two {
+    width: 45%;
+  }
+}
+@media (max-width: 800px) {
+  /* line 122, ../sass/scss/cvstyle.scss */
+  ul.one {
+    width: 100%;
+    margin-left: 20px;
+  }
+
+  /* line 126, ../sass/scss/cvstyle.scss */
+  ul.two {
+    width: 100%;
+    float: left;
+    margin-left: 20px;
+  }
+}
+@media (max-width: 640px) {
+  /* line 134, ../sass/scss/cvstyle.scss */
+  .contact {
+    top: 30px;
+  }
+
+  /* line 138, ../sass/scss/cvstyle.scss */
+  .information {
+    padding-top: 0px;
+  }
+}
+@media (max-width: 545px) {
+  /* line 144, ../sass/scss/cvstyle.scss */
+  .contact {
+    top: 0px;
+    left: 9%;
+  }
+
+  /* line 149, ../sass/scss/cvstyle.scss */
+  .contact h2 {
+    text-align: left;
+  }
+}
