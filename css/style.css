@@ -77,7 +77,7 @@ a:hover {
 
 /* line 73, ../sass/scss/style.scss */
 #c a:hover {
-  color: #34A9FF;
+  color: #55acee;
 }
 
 /* line 77, ../sass/scss/style.scss */
@@ -96,7 +96,7 @@ a:hover {
 /* line 90, ../sass/scss/style.scss */
 .links {
   display: block;
-  margin: 10px 0px 0px 5px;
+  margin: 10px 0px 0px 0px;
 }
 
 /* line 95, ../sass/scss/style.scss */

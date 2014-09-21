@@ -1,4 +1,4 @@
-/* line 4, ../sass/scss/cvstyle.scss */
+/* line 8, ../sass/scss/cvstyle.scss */
 .skills p {
   color: #3c393c;
   font-size: 16px;
@@ -9,165 +9,173 @@
   margin-bottom: 5px;
 }
 
-/* line 14, ../sass/scss/cvstyle.scss */
+/* line 18, ../sass/scss/cvstyle.scss */
+.education p {
+  color: #3c393c;
+  font-size: 16px;
+  line-height: 22px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  margin-top: 5px;
+  margin-bottom: 16px;
+}
+
+/* line 28, ../sass/scss/cvstyle.scss */
+.education span {
+  font-weight: 600;
+}
+
+/* line 33, ../sass/scss/cvstyle.scss */
 p {
   font-size: 18px;
 }
 
-/* line 18, ../sass/scss/cvstyle.scss */
+/* line 37, ../sass/scss/cvstyle.scss */
 h1 {
   color: #4472b9;
 }
 
-/* line 22, ../sass/scss/cvstyle.scss */
+/* line 41, ../sass/scss/cvstyle.scss */
 h2 {
   font-size: 34px;
   color: #4472b9;
 }
 
-/* line 27, ../sass/scss/cvstyle.scss */
+/* line 46, ../sass/scss/cvstyle.scss */
+ul.links {
+  line-height: 25px;
+}
+
+/* line 50, ../sass/scss/cvstyle.scss */
 .information {
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 
-/* line 31, ../sass/scss/cvstyle.scss */
+/* line 54, ../sass/scss/cvstyle.scss */
 #a a:hover {
-  color: #be4c39;
+  color: #34A9FF;
 }
 
-/* line 35, ../sass/scss/cvstyle.scss */
+/* line 58, ../sass/scss/cvstyle.scss */
 #c a:hover {
   color: #4ca454;
 }
 
-/* line 39, ../sass/scss/cvstyle.scss */
+/* line 62, ../sass/scss/cvstyle.scss */
 #d a:hover {
-  color: #4472b9;
+  color: #55acee;
 }
 
-/* line 43, ../sass/scss/cvstyle.scss */
+/* line 66, ../sass/scss/cvstyle.scss */
+#e a:hover {
+  color: #be4c39;
+}
+
+/* line 70, ../sass/scss/cvstyle.scss */
+#f a:hover {
+  color: #9351a6;
+}
+
+/* line 74, ../sass/scss/cvstyle.scss */
 .bio {
   float: left;
-  width: 55%;
+  width: 80%;
   margin-bottom: 20px;
 }
 
-/* line 49, ../sass/scss/cvstyle.scss */
-.contact {
-  float: right;
-  width: 28%;
-  margin-right: 10px;
-}
-
-/* line 55, ../sass/scss/cvstyle.scss */
-.contact h2 {
-  text-align: right;
-  color: #4472b9;
-  font-size: 22px;
-  font-weight: 600;
-  padding: 5px;
-  line-height: 30px;
-}
-
-/* line 64, ../sass/scss/cvstyle.scss */
+/* line 80, ../sass/scss/cvstyle.scss */
 ul.one {
   list-style-type: disc;
   float: left;
   text-align: left;
   width: 46%;
   line-height: 30px;
-  margin-left: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
-/* line 73, ../sass/scss/cvstyle.scss */
+/* line 90, ../sass/scss/cvstyle.scss */
 ul.one p {
   font-weight: 600;
 }
 
-/* line 77, ../sass/scss/cvstyle.scss */
+/* line 94, ../sass/scss/cvstyle.scss */
 ul.two p {
   font-weight: 600;
 }
 
-/* line 81, ../sass/scss/cvstyle.scss */
+/* line 98, ../sass/scss/cvstyle.scss */
 ul.two {
   list-style-type: disc;
   float: right;
   text-align: left;
   width: 48%;
   line-height: 30px;
+  margin-bottom: 20px;
+  margin-right: 20px;
 }
 
-/* line 89, ../sass/scss/cvstyle.scss */
-.skills {
+/* line 108, ../sass/scss/cvstyle.scss */
+section.relevant.skills {
+  margin-bottom: 40px;
+}
+
+/* line 112, ../sass/scss/cvstyle.scss */
+section.other.skills {
+  margin-bottom: 40px;
+}
+
+/* line 116, ../sass/scss/cvstyle.scss */
+.work {
   margin-bottom: 20px;
 }
 
-@media (max-width: 1200px) {
-  /* line 94, ../sass/scss/cvstyle.scss */
-  .contact {
-    width: 40%;
-  }
+/* line 120, ../sass/scss/cvstyle.scss */
+#back {
+  position: relative;
+  top: 1.5px;
 }
-@media (max-width: 800px) {
-  /* line 100, ../sass/scss/cvstyle.scss */
-  .contact {
-    position: absolute;
-    top: 40px;
-    right: 9%;
-    width: 100%;
-  }
 
-  /* line 107, ../sass/scss/cvstyle.scss */
+@media (max-width: 800px) {
+  /* line 127, ../sass/scss/cvstyle.scss */
   .bio {
     width: 100%;
   }
 }
+@media (max-width: 830px) {
+  /* line 133, ../sass/scss/cvstyle.scss */
+  .links span {
+    padding: 0px 10px 0px 10px;
+  }
+}
 @media (max-width: 1150px) {
-  /* line 113, ../sass/scss/cvstyle.scss */
+  /* line 139, ../sass/scss/cvstyle.scss */
   ul.one {
     width: 45%;
   }
 
-  /* line 116, ../sass/scss/cvstyle.scss */
+  /* line 142, ../sass/scss/cvstyle.scss */
   ul.two {
     width: 45%;
   }
 }
 @media (max-width: 800px) {
-  /* line 122, ../sass/scss/cvstyle.scss */
+  /* line 148, ../sass/scss/cvstyle.scss */
   ul.one {
-    width: 100%;
+    width: 95%;
     margin-left: 20px;
   }
 
-  /* line 126, ../sass/scss/cvstyle.scss */
+  /* line 152, ../sass/scss/cvstyle.scss */
   ul.two {
-    width: 100%;
+    width: 95%;
     float: left;
     margin-left: 20px;
   }
 }
 @media (max-width: 640px) {
-  /* line 134, ../sass/scss/cvstyle.scss */
-  .contact {
-    top: 30px;
-  }
-
-  /* line 138, ../sass/scss/cvstyle.scss */
+  /* line 160, ../sass/scss/cvstyle.scss */
   .information {
     padding-top: 0px;
-  }
-}
-@media (max-width: 545px) {
-  /* line 144, ../sass/scss/cvstyle.scss */
-  .contact {
-    top: 0px;
-    right: 9%;
-  }
-
-  /* line 149, ../sass/scss/cvstyle.scss */
-  .contact h2 {
-    text-align: right;
   }
 }

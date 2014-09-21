@@ -1,6 +1,10 @@
 $text-colour:#3C393C;
 $font-style:'Raleway', sans-serif;
 
+.container{
+
+}
+
 .skills p{
 	color:$text-colour;
 	font-size:16px;
@@ -10,6 +14,21 @@ $font-style:'Raleway', sans-serif;
 	margin-top:5px;
 	margin-bottom:5px;
 }
+
+.education p{
+	color:$text-colour;
+	font-size:16px;
+	line-height:22px;
+	font-family: $font-style;
+	font-weight: 400;
+	margin-top:5px;
+	margin-bottom:16px;
+}
+
+.education span{
+	font-weight:600;
+}
+
 
 p{
 	font-size:18px;
@@ -24,12 +43,16 @@ h2{
 	color:#4472b9;
 }
 
+ul.links{
+	line-height:25px;
+}
+
 .information{
-	margin-bottom:30px;
+	margin-bottom:50px;
 }
 
 #a a:hover{
-	color:#be4c39;
+	color:#34A9FF;
 }
 
 #c a:hover{
@@ -37,28 +60,21 @@ h2{
 }
 
 #d a:hover{
-	color:#4472b9;
+	color:#55acee;
+}
+
+#e a:hover{
+	color:#be4c39;
+}
+
+#f a:hover{
+	color:#9351a6;
 }
 
 .bio{
 	float:left;
-	width:55%;
+	width:80%;
 	margin-bottom:20px;
-}
-
-.contact{
-	float:right;
-	width:28%;
-	margin-right:10px;
-}
-
-.contact h2{
-	text-align:right;
-	color:#4472b9;
-	font-size:22px;
-	font-weight:600;
-	padding:5px;
-	line-height:30px;
 }
 
 ul.one{
@@ -67,7 +83,8 @@ ul.one{
 	text-align:left;
 	width:46%;
 	line-height:30px;
-	margin-left:30px;
+	margin-left:20px;
+	margin-right:20px;
 }
 
 ul.one p{
@@ -84,29 +101,38 @@ ul.two{
 	text-align:left;
 	width:48%;
 	line-height:30px;
+	margin-bottom:20px;
+	margin-right:20px;
 }
 
-.skills{
+section.relevant.skills{
+	margin-bottom:40px;
+}
+
+section.other.skills{
+	margin-bottom:40px;
+}
+
+.work{
 	margin-bottom:20px;
 }
 
-@media (max-width:1200px){
-	.contact{
-		width:40%;
-	}
+#back{
+	position:relative;
+	top:1.5px;
 }
 
-@media (max-width:800px){
-	.contact{
-		position:absolute;
-		top:40px;
-		right:9%;
-		width:100%;
-	}
 
+@media (max-width:800px){
 	.bio{
 		width:100%;
 	}
+}
+
+@media (max-width:830px){
+	.links span{
+	padding: 0px 10px 0px 10px;
+}
 }
 
 @media (max-width:1150px){
@@ -120,33 +146,18 @@ ul.two{
 
 @media (max-width:800px){
 ul.one{
-	width:100%;
+	width:95%;
 	margin-left:20px;
 }
 ul.two{
-	width:100%;
+	width:95%;
 	float:left;
 	margin-left:20px;
 }
 }
 
 @media (max-width:640px){
-	.contact{
-		top:30px;
-	}
-
 	.information{
 		padding-top:0px;
-	}
-}
-
-@media (max-width:545px){
-	.contact{
-		top:0px;
-		right:9%;
-	}
-
-	.contact h2{
-		text-align:right;
 	}
 }
