@@ -91,20 +91,19 @@ ul.one {
   width: 46%;
   line-height: 30px;
   margin-left: 20px;
-  margin-right: 20px;
 }
 
-/* line 90, ../sass/scss/cvstyle.scss */
+/* line 89, ../sass/scss/cvstyle.scss */
 ul.one p {
   font-weight: 600;
 }
 
-/* line 94, ../sass/scss/cvstyle.scss */
+/* line 93, ../sass/scss/cvstyle.scss */
 ul.two p {
   font-weight: 600;
 }
 
-/* line 98, ../sass/scss/cvstyle.scss */
+/* line 97, ../sass/scss/cvstyle.scss */
 ul.two {
   list-style-type: disc;
   float: right;
@@ -115,58 +114,58 @@ ul.two {
   margin-right: 20px;
 }
 
-/* line 108, ../sass/scss/cvstyle.scss */
+/* line 107, ../sass/scss/cvstyle.scss */
 section.relevant.skills {
   margin-bottom: 40px;
 }
 
-/* line 112, ../sass/scss/cvstyle.scss */
+/* line 111, ../sass/scss/cvstyle.scss */
 section.other.skills {
   margin-bottom: 40px;
 }
 
-/* line 116, ../sass/scss/cvstyle.scss */
+/* line 115, ../sass/scss/cvstyle.scss */
 .work {
   margin-bottom: 20px;
 }
 
-/* line 120, ../sass/scss/cvstyle.scss */
+/* line 119, ../sass/scss/cvstyle.scss */
 #back {
   position: relative;
   top: 1.5px;
 }
 
 @media (max-width: 800px) {
-  /* line 127, ../sass/scss/cvstyle.scss */
+  /* line 126, ../sass/scss/cvstyle.scss */
   .bio {
     width: 100%;
   }
 }
 @media (max-width: 830px) {
-  /* line 133, ../sass/scss/cvstyle.scss */
+  /* line 132, ../sass/scss/cvstyle.scss */
   .links span {
     padding: 0px 10px 0px 10px;
   }
 }
 @media (max-width: 1150px) {
-  /* line 139, ../sass/scss/cvstyle.scss */
+  /* line 138, ../sass/scss/cvstyle.scss */
   ul.one {
     width: 45%;
   }
 
-  /* line 142, ../sass/scss/cvstyle.scss */
+  /* line 141, ../sass/scss/cvstyle.scss */
   ul.two {
     width: 45%;
   }
 }
 @media (max-width: 800px) {
-  /* line 148, ../sass/scss/cvstyle.scss */
+  /* line 147, ../sass/scss/cvstyle.scss */
   ul.one {
     width: 95%;
     margin-left: 20px;
   }
 
-  /* line 152, ../sass/scss/cvstyle.scss */
+  /* line 151, ../sass/scss/cvstyle.scss */
   ul.two {
     width: 95%;
     float: left;
@@ -174,7 +173,7 @@ section.other.skills {
   }
 }
 @media (max-width: 640px) {
-  /* line 160, ../sass/scss/cvstyle.scss */
+  /* line 159, ../sass/scss/cvstyle.scss */
   .information {
     padding-top: 0px;
   }
