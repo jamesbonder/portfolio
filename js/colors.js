@@ -1,3 +1,7 @@
 function chbg(color) {
-    document.getElementById('b').style.color = color;
+	var elements = document.getElementsByClassName('b');
+
+	for(var i = 0; i < elements.length; i++){
+		elements[i].style['color'] = color;
+	}
 } 
