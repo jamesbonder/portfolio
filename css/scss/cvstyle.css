@@ -1,3 +1,4 @@
+/* line 8, ../../sass/scss/cvstyle.scss */
 .skills p {
   color: #3C393C;
   font-size: 16px;
@@ -7,6 +8,7 @@
   margin-top: 5px;
   margin-bottom: 5px; }
 
+/* line 18, ../../sass/scss/cvstyle.scss */
 .education p {
   color: #3C393C;
   font-size: 16px;
@@ -16,45 +18,58 @@
   margin-top: 5px;
   margin-bottom: 16px; }
 
+/* line 28, ../../sass/scss/cvstyle.scss */
 .education span {
   font-weight: 600; }
 
+/* line 33, ../../sass/scss/cvstyle.scss */
 p {
   font-size: 18px; }
 
+/* line 37, ../../sass/scss/cvstyle.scss */
 h1 {
   color: #4472b9; }
 
+/* line 41, ../../sass/scss/cvstyle.scss */
 h2 {
   font-size: 34px;
   color: #4472b9; }
 
+/* line 46, ../../sass/scss/cvstyle.scss */
 ul.links {
   line-height: 25px; }
 
+/* line 50, ../../sass/scss/cvstyle.scss */
 .information {
   margin-bottom: 50px; }
 
+/* line 54, ../../sass/scss/cvstyle.scss */
 #a a:hover {
   color: #34A9FF; }
 
+/* line 58, ../../sass/scss/cvstyle.scss */
 #c a:hover {
   color: #4ca454; }
 
+/* line 62, ../../sass/scss/cvstyle.scss */
 #d a:hover {
   color: #55acee; }
 
+/* line 66, ../../sass/scss/cvstyle.scss */
 #e a:hover {
   color: #be4c39; }
 
+/* line 70, ../../sass/scss/cvstyle.scss */
 #f a:hover {
   color: #9351a6; }
 
+/* line 74, ../../sass/scss/cvstyle.scss */
 .bio {
   float: left;
   width: 80%;
   margin-bottom: 20px; }
 
+/* line 80, ../../sass/scss/cvstyle.scss */
 ul.one {
   list-style-type: disc;
   float: left;
@@ -63,12 +78,15 @@ ul.one {
   line-height: 30px;
   margin-left: 20px; }
 
+/* line 89, ../../sass/scss/cvstyle.scss */
 ul.one p {
   font-weight: 600; }
 
+/* line 93, ../../sass/scss/cvstyle.scss */
 ul.two p {
   font-weight: 600; }
 
+/* line 97, ../../sass/scss/cvstyle.scss */
 ul.two {
   list-style-type: disc;
   float: right;
@@ -77,40 +95,51 @@ ul.two {
   line-height: 30px;
   margin-bottom: 20px; }
 
+/* line 106, ../../sass/scss/cvstyle.scss */
 section.relevant.skills {
   margin-bottom: 40px; }
 
+/* line 110, ../../sass/scss/cvstyle.scss */
 section.other.skills {
   margin-bottom: 40px; }
 
+/* line 114, ../../sass/scss/cvstyle.scss */
 .work {
   margin-bottom: 20px; }
 
+/* line 118, ../../sass/scss/cvstyle.scss */
 #back {
   position: relative;
   top: 1.5px; }
 
 @media (max-width: 800px) {
+  /* line 125, ../../sass/scss/cvstyle.scss */
   .bio {
     width: 100%; } }
 @media (max-width: 830px) {
+  /* line 131, ../../sass/scss/cvstyle.scss */
   .links span {
     padding: 0px 10px 0px 10px; } }
 @media (max-width: 1150px) {
+  /* line 137, ../../sass/scss/cvstyle.scss */
   ul.one {
     width: 45%; }
 
+  /* line 140, ../../sass/scss/cvstyle.scss */
   ul.two {
     width: 45%; } }
 @media (max-width: 800px) {
+  /* line 146, ../../sass/scss/cvstyle.scss */
   ul.one {
     width: 95%;
     margin-left: 20px; }
 
+  /* line 150, ../../sass/scss/cvstyle.scss */
   ul.two {
     width: 95%;
     float: left;
     margin-left: 20px; } }
 @media (max-width: 640px) {
+  /* line 158, ../../sass/scss/cvstyle.scss */
   .information {
     padding-top: 0px; } }

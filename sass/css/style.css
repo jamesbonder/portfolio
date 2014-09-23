@@ -5,6 +5,8 @@ html, body {
   padding: 0; }
 
 .container {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
   height: 100%;
   margin: 0 auto;
   max-width: 1280px;
@@ -60,7 +62,7 @@ a:hover {
   color: #be4c39; }
 
 /* Header Styles */
-.top {
+.information {
   padding-top: 120px;
   margin: 0px 0px 45px 0px; }
 
@@ -68,27 +70,28 @@ a:hover {
 .links {
   display: block;
   margin: 10px 0px 0px 0px; }
-  .links li {
-    display: inline;
-    font-size: 16px;
-    letter-spacing: 2px; }
-  .links ul {
-    font-family: "Raleway", sans-serif;
-    font-weight: 400; }
-  .links span {
-    padding: 0px 20px 0px 20px; }
+
+.links li {
+  display: inline;
+  font-size: 16px;
+  letter-spacing: 2px; }
+
+.links span {
+  padding: 0px 20px 0px 20px; }
 
 /* About Styles */
 .about {
   margin-bottom: 20px; }
-  .about p {
-    color: #3C393C;
-    font-size: 16px;
-    line-height: 22px;
-    font-family: "Raleway", sans-serif;
-    font-weight: 400; }
-  .about p span {
-    font-weight: 600; }
+
+.about p {
+  color: #3C393C;
+  font-size: 16px;
+  line-height: 22px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400; }
+
+.about p span {
+  font-weight: 600; }
 
 .bio {
   width: 80%; }
@@ -97,23 +100,22 @@ a:hover {
 .projects {
   width: 90%;
   margin-bottom: 20px; }
-  .projects span {
-    font-weight: 600;
-    font-family: "Raleway", sans-serif; }
-  .projects p {
-    margin-top: 5px;
-    color: #3C393C;
-    font-size: 16px;
-    line-height: 22px;
-    font-family: "Raleway", sans-serif;
-    font-weight: 400; }
+
+.projects span {
+  font-weight: 600; }
+
+.projects p {
+  margin-top: 5px;
+  color: #3C393C;
+  font-size: 16px;
+  line-height: 22px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400; }
 
 /* Footer Styles */
 .footer {
+  font-size: 12px;
   margin: 50px auto 0px auto; }
-  .footer p {
-    font-family: "Raleway", sans-serif;
-    font-size: 12px; }
 
 /* Media Queries
 /*-----------------------*/
@@ -134,7 +136,7 @@ a:hover {
   h1 {
     font-size: 80px; }
 
-  .top {
+  .information {
     padding-top: 100px; }
 
   h1 span {
@@ -143,7 +145,7 @@ a:hover {
   .links span {
     padding: 0 4px; } }
 @media (max-width: 640px) and (orientation: landscape) {
-  .top {
+  .information {
     padding-top: 100px; } }
 @media (max-width: 480px) {
   .bio {
@@ -152,7 +154,7 @@ a:hover {
   .container {
     width: 90%; }
 
-  .top {
+  .information {
     padding-top: 100px; }
 
   .links span {

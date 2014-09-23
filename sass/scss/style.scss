@@ -1,3 +1,9 @@
+@import "compass/css3/box-sizing";
+@import "compass/css3/animation";
+* {
+    @include box-sizing(border-box);
+}
+
 $text-colour:#3C393C;
 $font-style:'Raleway', sans-serif;
 
@@ -9,8 +15,6 @@ html, body {
 }
 
 .container{
-	font-family:$font-style;
-	font-weight: 400;
 	height:100%;
 	margin:0 auto;
 	max-width:1280px;
@@ -67,7 +71,7 @@ a:hover{
 }
 
 #a a:hover{
-	color:#4ca454;
+	color:#9351a6;
 }
 
 #c a:hover{
@@ -80,8 +84,8 @@ a:hover{
 
 /* Header Styles */
 
-.information{
-	padding-top:150px;
+.top{
+	padding-top:120px;
 	margin:0px 0px 45px 0px;
 }
 
@@ -90,35 +94,40 @@ a:hover{
 .links{
 	display:block;
 	margin: 10px 0px 0px 0px;
-}
 
-.links li{
+	li{
 	display:inline;
 	font-size:16px;
 	letter-spacing:2px;
-}
+	}
 
-.links span{
+	ul{
+	font-family:$font-style;
+	font-weight: 400;
+	}
+
+	span{
 	padding: 0px 20px 0px 20px;
-}
+	}
+	}
 
 /* About Styles */
 
 .about{
 	margin-bottom:20px;
-}
 
-.about p{
+	p{
 	color:$text-colour;
 	font-size:16px;
 	line-height:22px;
 	font-family: $font-style;
 	font-weight: 400;
-}
+	}
 
-.about p span{
+	p span{
 	font-weight:600;
-}
+	}
+	}
 
 .bio{
 	width:80%;
@@ -129,26 +138,31 @@ a:hover{
 .projects{
 	width:90%;
 	margin-bottom:20px;
-}
 
-.projects span {
+	span {
 	font-weight:600;
+	font-family:$font-style;
 }
 
-.projects p{
+	p{
 	margin-top:5px;
 	color:$text-colour;
 	font-size:16px;
 	line-height:22px;
 	font-family: $font-style;
 	font-weight: 400;
+	}
 }
 
 /* Footer Styles */
 
 .footer {
-	font-size: 12px;
 	margin: 50px auto 0px auto;
+
+	p{
+		font-family:$font-style;
+		font-size: 12px;
+	}
 }
 
 /* Media Queries
@@ -176,7 +190,7 @@ a:hover{
 		font-size: 80px;
 	}
 
-	.information {
+	.top {
 		padding-top: 100px;
 	}
 
@@ -190,7 +204,7 @@ a:hover{
 }
 
 @media (max-width: 640px) and (orientation:landscape) {
-	.information {
+	.top {
 		padding-top: 100px;
 	}
 }
@@ -205,7 +219,7 @@ a:hover{
 		width: 90%;
 	}
 
-	.information {
+	.top {
 		padding-top: 100px;
 	}
 
