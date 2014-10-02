@@ -1,3 +1,8 @@
-/* Welcome to Compass. Use this file to define print styles.
- * Import this file using the following HTML or equivalent:
- * <link href="/stylesheets/print.css" media="print" rel="stylesheet" type="text/css" /> */
+@media print {
+  /* line 2, ../sass/print.scss */
+  .links {
+    display: none; } }
+@media print {
+  /* line 8, ../sass/print.scss */
+  section.relevant.skills {
+    margin-top: 0px; } }
