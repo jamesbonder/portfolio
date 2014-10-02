@@ -1,3 +1,4 @@
+/* line 7, ../sass/cvstyle.scss */
 .skills p {
   color: #3C393C;
   font-size: 16px;
@@ -7,6 +8,7 @@
   margin-top: 5px;
   margin-bottom: 5px; }
 
+/* line 17, ../sass/cvstyle.scss */
 .education p {
   color: #3C393C;
   font-size: 16px;
@@ -16,45 +18,63 @@
   margin-top: 5px;
   margin-bottom: 16px; }
 
-.education span {
-  font-weight: 600; }
+/* line 27, ../sass/cvstyle.scss */
+.bio p {
+  font-family: "Raleway", sans-serif; }
 
+/* line 31, ../sass/cvstyle.scss */
+.education span {
+  font-weight: 600;
+  font-family: "Raleway", sans-serif; }
+
+/* line 37, ../sass/cvstyle.scss */
 p {
   font-size: 18px; }
 
+/* line 41, ../sass/cvstyle.scss */
 h1 {
   color: #4472b9; }
 
+/* line 45, ../sass/cvstyle.scss */
 h2 {
   font-size: 34px;
   color: #4472b9; }
 
+/* line 50, ../sass/cvstyle.scss */
 ul.links {
   line-height: 25px; }
 
-.information {
+/* line 54, ../sass/cvstyle.scss */
+.top {
   margin-bottom: 50px; }
 
+/* line 58, ../sass/cvstyle.scss */
 #a a:hover {
   color: #34A9FF; }
 
+/* line 62, ../sass/cvstyle.scss */
 #c a:hover {
   color: #4ca454; }
 
+/* line 66, ../sass/cvstyle.scss */
 #d a:hover {
   color: #55acee; }
 
+/* line 70, ../sass/cvstyle.scss */
 #e a:hover {
   color: #be4c39; }
 
+/* line 74, ../sass/cvstyle.scss */
 #f a:hover {
   color: #9351a6; }
 
+/* line 78, ../sass/cvstyle.scss */
 .bio {
   float: left;
   width: 80%;
   margin-bottom: 20px; }
 
+/* line 84, ../sass/cvstyle.scss */
 ul.one {
   list-style-type: disc;
   float: left;
@@ -63,12 +83,15 @@ ul.one {
   line-height: 30px;
   margin-left: 20px; }
 
+/* line 93, ../sass/cvstyle.scss */
 ul.one p {
   font-weight: 600; }
 
+/* line 97, ../sass/cvstyle.scss */
 ul.two p {
   font-weight: 600; }
 
+/* line 101, ../sass/cvstyle.scss */
 ul.two {
   list-style-type: disc;
   float: right;
@@ -77,40 +100,51 @@ ul.two {
   line-height: 30px;
   margin-bottom: 20px; }
 
+/* line 110, ../sass/cvstyle.scss */
 section.relevant.skills {
   margin-bottom: 40px; }
 
+/* line 114, ../sass/cvstyle.scss */
 section.other.skills {
   margin-bottom: 40px; }
 
+/* line 118, ../sass/cvstyle.scss */
 .work {
   margin-bottom: 20px; }
 
+/* line 122, ../sass/cvstyle.scss */
 #back {
   position: relative;
   top: 1.5px; }
 
 @media (max-width: 800px) {
+  /* line 129, ../sass/cvstyle.scss */
   .bio {
     width: 100%; } }
 @media (max-width: 830px) {
+  /* line 135, ../sass/cvstyle.scss */
   .links span {
     padding: 0px 10px 0px 10px; } }
 @media (max-width: 1150px) {
+  /* line 141, ../sass/cvstyle.scss */
   ul.one {
     width: 45%; }
 
+  /* line 144, ../sass/cvstyle.scss */
   ul.two {
     width: 45%; } }
 @media (max-width: 800px) {
+  /* line 150, ../sass/cvstyle.scss */
   ul.one {
     width: 95%;
     margin-left: 20px; }
 
+  /* line 154, ../sass/cvstyle.scss */
   ul.two {
     width: 95%;
     float: left;
     margin-left: 20px; } }
 @media (max-width: 640px) {
+  /* line 162, ../sass/cvstyle.scss */
   .information {
     padding-top: 0px; } }

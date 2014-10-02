@@ -1,8 +1,7 @@
 $text-colour:#3C393C;
 $font-style:'Raleway', sans-serif;
 
-.container{
-
+body{
 }
 
 .skills p{
@@ -25,8 +24,13 @@ $font-style:'Raleway', sans-serif;
 	margin-bottom:16px;
 }
 
+.bio p{
+	font-family:$font-style;
+}
+
 .education span{
 	font-weight:600;
+	font-family:$font-style;
 }
 
 
@@ -47,7 +51,7 @@ ul.links{
 	line-height:25px;
 }
 
-.information{
+.top{
 	margin-bottom:50px;
 }
 
