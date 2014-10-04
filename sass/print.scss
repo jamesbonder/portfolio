@@ -8,4 +8,10 @@
 	section.relevant.skills{
 		margin-top:0px;
 }
+
+@media print{
+	footer.footer{
+		display:none;
+	}
+}
 }

@@ -6,3 +6,7 @@
   /* line 8, ../sass/print.scss */
   section.relevant.skills {
     margin-top: 0px; } }
+@media print {
+  /* line 13, ../sass/print.scss */
+  footer.footer {
+    display: none; } }
