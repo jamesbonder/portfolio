@@ -37,7 +37,7 @@ li {
 /* line 41, ../sass/style.scss */
 h1 {
   color: #3C393C;
-  font-family: "Raleway", sans-serif;
+  font-family: "Raleway", Helvetica, sans-serif;
   font-size: 100px;
   font-weight: 700;
   letter-spacing: 2px;
@@ -47,7 +47,7 @@ h1 {
 
 /* line 52, ../sass/style.scss */
 h2 {
-  font-family: "Raleway", sans-serif;
+  font-family: "Raleway", Helvetica, sans-serif;
   font-weight: 400;
   font-size: 22px;
   font-weight: 600;
@@ -95,7 +95,7 @@ a:hover {
     letter-spacing: 2px; }
   /* line 104, ../sass/style.scss */
   .links ul {
-    font-family: "Raleway", sans-serif;
+    font-family: "Raleway", Helvetica, sans-serif;
     font-weight: 400; }
   /* line 109, ../sass/style.scss */
   .links span {
@@ -110,7 +110,7 @@ a:hover {
     color: #3C393C;
     font-size: 16px;
     line-height: 22px;
-    font-family: "Raleway", sans-serif;
+    font-family: "Raleway", Helvetica, sans-serif;
     font-weight: 400; }
   /* line 127, ../sass/style.scss */
   .about p span {
@@ -129,14 +129,14 @@ a:hover {
   /* line 143, ../sass/style.scss */
   .projects span {
     font-weight: 600;
-    font-family: "Raleway", sans-serif; }
+    font-family: "Raleway", Helvetica, sans-serif; }
   /* line 148, ../sass/style.scss */
   .projects p {
     margin-top: 5px;
     color: #3C393C;
     font-size: 16px;
     line-height: 22px;
-    font-family: "Raleway", sans-serif;
+    font-family: "Raleway", Helvetica, sans-serif;
     font-weight: 400; }
 
 /* Footer Styles */
@@ -145,7 +145,7 @@ a:hover {
   margin: 50px auto 0px auto; }
   /* line 163, ../sass/style.scss */
   .footer p {
-    font-family: "Raleway", sans-serif;
+    font-family: "Raleway", Helvetica, sans-serif;
     font-size: 12px; }
 
 /* Media Queries

@@ -1,7 +1,11 @@
-function chbg(color) {
-	var elements = document.getElementsByClassName('b');
-
-	for(var i = 0; i < elements.length; i++){
-		elements[i].style['color'] = color;
-	}
-} 
+$(document).ready(function(){
+	$("#a").mouseover(function(){
+		$(".b").css('color', '#9351a6');
+	$("#c").mouseover(function(){
+		$(".b").css('color', '#55acee');
+	$("#d").mouseover(function(){
+		$(".b").css('color', '#be4c39');
+	});
+		});
+	});
+		});
